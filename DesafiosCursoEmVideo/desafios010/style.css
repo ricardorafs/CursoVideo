@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf);
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+body{
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #38ca79, #268952, #1a5c38);
+    height: 30% auto;
+    width: auto;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    box-shadow: 2px 1px 1px #000000b6;
+}
+
+#h1header{
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+    padding-bottom: 20px;
+}
+
+
+#pheader{
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #00000081;
+}
+
+nav{
+    margin-top: 40px;
+    text-align: left;
+}
+
+nav > a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+nav > a:hover{
+    background-color: #2ea063;
+    color: #076830;
+    border-radius: 3px;
+    padding: 3px 0;
+}
+
+section{
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+article{
+    background-color: #ffffff;
+    height: auto;
+    width: 65%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px #00000069;
+    padding: 10px;
+}
+
+.marcado{
+    color: #076D34;
+}
+
+#h1article{
+    color: #185B36;
+    font-family: "idroid", sans-serif;
+    font-size: 2.2em;
+    margin-top: 0;
+}
+
+.linkarticle{
+    color: #185B36;
+    text-decoration: none;
+}
+
+.linkarticle:hover{
+    text-decoration: underline;
+}
+
+.linkarticle::after{
+    content: "\260D";
+}
+
+article > p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 5px;
+}
+
+article > h2{
+    font-family: "idroid", sans-serif;
+    color: #185B36;
+    background-image: linear-gradient(to right, #53d68c, #fff);
+    margin-bottom: 30px;
+}
+
+.imagesarticle{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+#videoyt{
+    background-color: #185B36;
+    height: auto;
+    width: 65%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#videodiv{
+    background-color: #185B36;
+    height: 70vh;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center; 
+}
+
+
+footer{
+    background-color: #1a5c38;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer > p{
+    margin: 0;
+    padding: 1px;
+}

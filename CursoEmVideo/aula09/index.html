@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivis diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/image-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/image-m.png" type="image/png">
+        <img src="images/image-g.png" alt="big image">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios com html5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Arm Wrestler - National Sweetheart.mp3" type="audio/mepg">
+        <p>Infelizmente seu navegador não reproduz audio. <a href="midia/Arm Wrestler - National Sweetheart.mp3">Clique aqui para fazer download</a></p>
+    </audio>
+</body>
+</html>
